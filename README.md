@@ -1,38 +1,53 @@
 Prediction with Logistic Regression
 
-Projects: Predicting whether the bank client has subscribed for the term deposit or not.
+Projects: 
 
-Objectives: Exploring Insights/Inferences by performing EDA on the given data.
+Predicting whether the bank client has subscribed for the term deposit or not.
+
+Objectives: 
+
+Exploring Insights/Inferences by performing EDA on the given data.
 Relevant graphs were plotted to get some insights on data using seaborn package.
 Model fitting via Logistic Regression by Importing sklearn package.
 
 Python Libraries Used:
+
 Pandas
+
 Numpy
+
 Matplotlib
+
 Seaborn
+
 Scikit learn
+
 Joblib
 
 Methodology:
+
 1. Data copying and cleaning:
+
 Read the csv file
 copy the data
 check for null values and other informations
 
 2. Exploratory Data Analysis:
+
 Conduct all the necessary EDA using various graphs on the dataset
 interpret the graphs
 check for outliers and correlation among the coloumns
 perform one hot encoding in case of categorical columns
 
 3. Sampling of data:
+
 Divide the data into x and y
 standardize the data using StandardScaler lib
 import test_train_split from sklearn.model_selection
 divide the data into training and testing
 
 4. Modelling of data:
+
 import LogisticRegression and initialize it
 fit the model
 predict the model
@@ -42,10 +57,13 @@ From sklearn.metris import accuracy_score, precision_score, confusion_matrix
 check the accuracy of the model
 
 6. Save the Model:
+
 import joblib
+
 save the model
 
 Bank-Deposit data Probelm:
+
 File name: Bank-Deposit-data-files
 
 EDA Inferences:
@@ -67,6 +85,9 @@ The accuracy of the model is came out to be:
 Accuracy Score: 0.90
 
 Precision Score:0.65
+
 Contribution:
+
 Still Learning,
+
 So feel free, Anything You wanna contirubute.
